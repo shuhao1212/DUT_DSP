@@ -1,0 +1,95 @@
+# ==================== Build Outputs ====================
+Debug/
+Release/
+*.out
+*.obj
+*.o
+*.d
+*.asm
+*.map
+*.hex
+*.bin
+*.a
+*.lib
+*.exe
+
+# CCS linker / make artifacts
+*.linkInfo.xml
+objects.mk
+sources.mk
+makefile
+subdir_rules.mk
+subdir_vars.mk
+ccsObjs.opt
+ccsIncludes.opt
+ccsLinker.opt
+
+# ==================== IDE / Editor ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# CCS project metadata (machine-specific, keep only essential ones)
+.settings/
+.launches/
+.ccsproject
+.cproject
+.project
+.theia/
+.clangd/
+
+# ==================== Python / venv ====================
+.venv/
+.venv_mineru/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ==================== MATLAB ====================
+*.m~*
+*.asv
+
+# ==================== Keys & Secrets ====================
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.secret
+*.token
+credentials.*
+*_credentials.*
+.env
+.env.*
+secrets/
+secret/
+
+# ==================== Local Cache / Temp ====================
+*.tmp
+*.temp
+*.log
+*.cache
+cache/
+temp/
+tmp/
+
+# ==================== PDF / Documents (optional) ====================
+# Uncomment if you don't want to track PDFs:
+# *.pdf
+
+# ==================== Output Data ====================
+output_mineru/
+*.mat
+!subband_filters.mat
+
+# ==================== OS Junk ====================
+*.lnk
